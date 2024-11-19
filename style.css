@@ -1,0 +1,99 @@
+/* Reset básico */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+/* Títulos */
+h2 {
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #4682b4;
+    margin-top: 20px;
+}
+
+h4 {
+    color: #5f9ea0;
+    margin-top: 15px;
+}
+
+/* Listas */
+ol, ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: square;
+}
+
+dl {
+    margin: 20px 0;
+}
+
+dt {
+    font-weight: bold;
+    color: #1e90ff;
+}
+
+dd {
+    margin-left: 20px;
+}
+
+/* Imágenes */
+img {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+/* Enlaces */
+a {
+    text-decoration: none;
+    color: #1e90ff;
+}
+
+a:hover {
+    color: #ff6347;
+}
+
+/* Bordes y espaciado */
+hr {
+    border: 0;
+    border-top: 2px solid #ddd;
+    margin: 20px 0;
+}
+
+body > h2, h3, h4 {
+    margin-left: 10px;
+}
+
+/* Recetas */
+h3 + ol {
+    border: 1px solid #ddd;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+/* Galería */
+ul li {
+    display: inline-block;
+    margin: 10px;
+}
+
+ul li img {
+    width: 100px;
+    height: auto;
+}
